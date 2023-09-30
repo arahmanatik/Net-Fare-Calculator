@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Net Fare Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span class="box-title">Net Fare Calculator</span>
+      <input id="input-basefare" type="text" placeholder="enter base fare" />
+      <input id="input-percent" type="text" placeholder="enter %" />
+      <input id="input-tax" type="text" placeholder="enter TAX amount" />
+      <button onclick="getNetFare()" id="calculate-btn">CALCULATE</button>
+      <p id="net-fare"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
